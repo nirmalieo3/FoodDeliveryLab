@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>labforfoodDelivery</title>
+  <link rel="stylesheet" type="text/css" href="css/resturanti.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="script/script.js"></script>
+</head>
+<body>
+	<header>
+   	
+     <nav id="mainNav">
+      <div>
+        <span><a href="#"><img src="img/logo-bianco.png" class="img"></a></span>
+      </div>
+
+     	<ul>
+     		<!--<li><a href="#"><img src="img/logo-bianco.png" class="img"></a></li>-->
+        <li><a href="index.html">Home</a></li>
+        <li><button class="open-button" onclick="openForm()">Login</button></li>
+           
+     		<li><a href="resturanti.html">Resturanti</a></li>
+     		<li><a href="https://www.facebook.com/" target="_blank" ><img src="img/facebook.png" class="img2" ></a></diV>
+            <a href="https://twitter.com/" target="_blank" ><img src="img/twitter.png" class="img2"></a>
+            <a href="https://www.instagram.com/" target="_blank" ><img src="img/instagram.jpg" class="img2"></a>
+            <a href="https://www.youtube.com/" target="_blank" ><img src="img/youtube.png" class="img2"></a>
+
+        </li>
+     	</ul>
+     </nav>
+    
+   </header>
+  
+   <div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+  
+     <a href=""><button class="open-button3" onclick="openForm3()"><b>Recorda Password</b></button></a>
+    
+
+     
+     <a href=""><button class="open-button2" onclick="openForm2()"><b>Crea un nuovo Account</b></button></a>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<div class="form-popup2" id="myForm2">
+  <form action="/action_page.php" class="form-container2">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label for="psw"><b>Repeti Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+  
+    
+
+     <button type="button" class="btn cancel" onclick="closeForm2()">Close</button>
+  </form>
+</div>
+<div class="form-popup3" id="myForm3">
+  <form action="/action_page.php" class="form-container2">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+      <button type="button" class="btn cancel" onclick="closeForm3()">Close</button>
+  </form>
+</div>
+  
+  	<h1 class="h1"> Find Best Restaurants </h1>
+  
+  <setion>
+	<section class="first"><a href="restaurant.html">
+	 <h1>French Restaurant</h1>
+	 <article>
+		<img src="img/res6.jpg" class="img3">
+	 </article>
+	 <article class="description">
+	 	
+	 	<h3>Cucina Francese</h3>
+	 	<h3>*****34</h3>
+	 	
+	 </article>
+	  <article class="description2">
+	 	<h3>pre ordina</h3>
+	 	<h3>Apre dom 12:15</h3>
+	 	<h3>Consegna: 3,90 Ordine Minimo:€ 25 </h3>
+	 	<h3>1.6 km</h3>
+	 	
+	 </article>
+	</section></a>
+	<section class="first">
+	 <h1>Japanese Restaurant</h1>
+	 <article>
+		<img src="img/res4.jpg" class="img3">
+	 </article>
+	 <article class="description">
+	 	
+	 	<h3>Cucina Japonese</h3>
+	 	<h3>*****34</h3>
+	 	
+	 </article>
+	  <article class="description2">
+	 	<h3>pre ordina</h3>
+	 	<h3>Apre dom 10:00 </h3>
+	 	<h3>Consegna: 2,90 Ordine Minimo:€ 30 </h3>
+	 	<h3>1.6 km</h3>
+	 	
+	 </article>
+	</section>
+	<section class="first">
+	 <h1>Italian restaurant</h1>
+	 <article>
+		<img src="img/res3.jpg" class="img3">
+	  </article>
+	 <article class="description">
+	 	
+	 	<h3>Cucina Italiano</h3>
+	 	<h3>*****34</h3>
+	 	
+	 </article>
+	  <article class="description2">
+	 	<h3>pre ordina</h3>
+	 	<h3>Apre dom 14:00</h3>
+	 	<h3>Consegna: Gratuita Ordine Minimo:€ 35 </h3>
+	 	<h3>1.6 km</h3>
+	 	
+	 </article>
+	</section>
+	<section class="first">
+	 <h1>Thai Restaurant</h1>
+	 <article>
+		<img src="img/res5.jpg" class="img3">
+	  </article>
+	 <article class="description">
+	 	
+	 	<h3>Cucina Tailandese</h3>
+	 	<h3>*****34</h3>
+	 	
+	 </article>
+	  <article class="description2">
+	 	<h3>pre ordina</h3>
+	 	<h3>Apre dom 20:00</h3>
+	 	<h3>Consegna: 2,00 Ordine Minimo:€ 25 </h3>
+	 	<h3>1.6 km</h3>
+	 	
+	 </article>
+	</section>
+	<section class="first">
+	 <h1>Chinese Restaurant</h1>
+	 <article>
+		<img src="img/res2.jpg" class="img3">
+	 </article>
+	 <article class="description">
+	 	
+	 	<h3>Cucina Chinese</h3>
+	 	<h3>*****34</h3>
+	 	
+	 </article>
+	  <article class="description2">
+	 	<h3>pre ordina</h3>
+	 	<h3>Apre dom 9:00</h3>
+	 	<h3>Consegna: 3,90 Ordine Minimo:€ 25 </h3>
+	 	<h3>1.6 km</h3>
+	 	
+	 </article>
+	</section>
+  </setion>
+  <footer>
+   <div class="big-container">
+    <div class="pay">
+       <h3 class="message">Payment Method</h3>
+     <div class="method">
+    <div class="box">
+    <img src="img/master.webp">
+    </div>
+    <div class="box">
+     <img src="img/paypal.png">
+   </div>
+     <div class="box">
+      <img src="img/visa.png">
+    </div>
+    <div class="box">
+       <img src="img/american.png">
+      </div>
+      </div>
+    </div>
+     <div class="meet">
+       <h3 class="message-contact">Contact</h3>
+     <div class="contact">
+    <div class="box2">
+    <a href="https://twitter.com/" target="_blank" ><img src="img/twitter.png"></a>
+    </div>
+    <div class="box2">
+      <a href="https://www.youtube.com/" target="_blank" ><img src="img/youtube.png"></a>
+   </div>
+     <div class="box2">
+      <a href="https://www.facebook.com/" target="_blank" ><img src="img/facebook.png"></a>
+    </div>
+    <div class="box2">
+       <a href="https://www.instagram.com/" target="_blank" ><img src="img/instagram.jpg"></a>
+      </div>
+      </div>
+    </div>
+   
+   </div>
+  
+
+ </footer>
+</body>
+</html>
