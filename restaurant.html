@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+    <link rel="stylesheet" href="css/restaurant.css" />
+    <script type="text/javascript" src="script/menu.js" async></script>   
+</head>
+<body>
+ <div id="content">
+   <header>
+    <nav id="mainNav">
+    <div>
+     <span><a href="#"><img src="img/logo-bianco.png" class="img"></a></span>
+    </div>
+    <ul>
+      <!--<li><a href="#"><img src="img/logo-bianco.png" class="img"></a></li>-->
+      <li><a href="index.html">Home</a></li>
+      <li><button class="open-button" onclick="openForm()">Login</button></li>
+      <li><a href="resturanti.html">Resturanti</a></li>
+      <li><a href="https://www.facebook.com/" target="_blank" ><img src="img/facebook.png" class="img2" ></a>
+           <a href="https://twitter.com/" target="_blank" ><img src="img/twitter.png" class="img2"></a>
+           <a href="https://www.instagram.com/" target="_blank" ><img src="img/instagram.jpg" class="img2"></a>
+            <a href="https://www.youtube.com/" target="_blank" ><img src="img/youtube.png" class="img2"></a>
+      </li>
+     </ul>
+      <div id="hamburger-container">
+        <img src="img/hamburger_icon.svg.png">
+      </div>
+    </nav>
+  </header>
+   <nav class="sideNav">
+     <div id="closeNav">
+       <img src="img/closeNav.svg" width="20px">
+      </div>
+     <ul class="links" >
+      <a href="#content"><li class="tab red">Home</li></a>
+      <a href="#menu"><li class="tab">Menu</li></a>
+      <a href="#contact"><li class="tab">Contact</li></a>
+    </ul>
+   </nav>
+ <div id="home" class="active content" >
+   <div class="tasty">
+     <h1> Delicious Italian cuisine!</h1>
+     <p>Tasty and Healthy!</p>
+     <div class="btn-order">
+      <a href="#menu"class="order">Your order</a>
+     </div>
+   </div>
+    <div class="info">
+     <div class="address">
+      <p>via lungo tevere, 126, Rome</p>
+     </div>
+     <div class="hours">
+       <p><span>Mon-Thurs:</span>8am-8pm<br />
+          <span>Fri-Sun:</span>8am-11pm
+       </p>
+     </div>
+    </div>
+  </div>
+ </div>
+
+<section id="menu"  class="content-section container">
+   <h1 class="section-header2">Menu</h1>
+    <h2 class="section-header">Primi</h2>
+  <div class="shop-items">
+    <div class="shop-item">
+      <span class="shop-item-title">Linguine al Seppia</span>
+     <!-- <div class="test4" tabindex="5">-->
+       <img  class="shop-item-image" src="img/primi1.jpg">
+        <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare.  </p>
+     <div class="shop-item-details">
+       <span class="shop-item-price">$10.00</span>
+       <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+     </div>
+    </div>
+   <div class="shop-item">
+      <span class="shop-item-title">Spaghetti alla carbonara</span>
+       <img class="shop-item-image" src="img/primi2.webp">
+        <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. </p>
+      <div class="shop-item-details">
+       <span class="shop-item-price">$10.00</span>
+       <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+     </div>
+  </div>
+  <div class="shop-item">
+    <span class="shop-item-title">Spaggetti alla Bolognese</span>
+      <img class="shop-item-image" src="img/primi3.jpeg">
+        <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. <p>
+   <div class="shop-item-details">
+    <span class="shop-item-price">$10.00</span>
+      <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+   </div>
+  </div>
+   <div class="shop-item">
+     <span class="shop-item-title">Fettuccine alla Boscaiola</span>
+      <img class="shop-item-image" src="img/primi4.jpg">
+      <p class="htext">dclassico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. </p>
+    <div class="shop-item-details">
+      <span class="shop-item-price">$10.00</span>
+       <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+    </div>
+   </div>
+  <div class="shop-item">
+    <span class="shop-item-title">Linguine al Seppia</span>
+       <img class="shop-item-image" src="img/primi1.jpg">
+       <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. </p>
+     <div class="shop-item-details">
+       <span class="shop-item-price">$10.00</span>
+       <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+     </div>
+   </div>
+     <div class="shop-item">
+       <span class="shop-item-title">Linguine al Seppia</span>
+       <img class="shop-item-image" src="img/primi1.jpg">
+       <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. 
+        </p>
+       <div class="shop-item-details">
+        <span class="shop-item-price">$10.00</span>
+        <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+       </div>
+     </div>
+     <div class="shop-item">
+       <span class="shop-item-title">Linguine al Seppia</span>
+       <img class="shop-item-image" src="img/primi1.jpg">
+       <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. </p>
+      <div class="shop-item-details">
+       <span class="shop-item-price">$10.00</span>
+       <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+      </div>
+     </div>
+    <div class="shop-item">
+       <span class="shop-item-title">Linguine al Seppia</span>
+       <img class="shop-item-image" src="img/primi1.jpg">
+       <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. </p>
+      <div class="shop-item-details">
+       <span class="shop-item-price">$10.00</span>
+       <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+ </section>
+ <section class="content-section container">
+   <h2 class="section-header">Secondi</h2>
+    <div class="shop-items">
+     <div class="shop-item">
+       <span class="shop-item-title">Seppie con i piselli</span>
+       <img class="shop-item-image" src="img/secondo1.jpg">
+        <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. </p>
+       <div class="shop-item-details">
+        <span class="shop-item-price">$14.00</span>
+        <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+       </div>
+     </div>
+    <div class="shop-item">
+        <span class="shop-item-title">pesce spada al pistacchio</span>
+        <img class="shop-item-image" src="img/secondo2.jpg">
+         <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. </p>
+       <div class="shop-item-details">
+        <span class="shop-item-price">$14.00</span>
+        <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+       </div>
+     </div>
+    <div class="shop-item">
+       <span class="shop-item-title">frittura mista di pesce</span>
+       <img class="shop-item-image" src="img/secondo3.jpg">
+        <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. </p>
+     <div class="shop-item-details">
+       <span class="shop-item-price">$14.00</span>
+       <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+     </div>
+     </div>
+     <div class="shop-item">
+       <span class="shop-item-title">filetto di orata</span>
+       <img class="shop-item-image" src="img/secondo4.jpg">
+        <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. </p>
+     <div class="shop-item-details">
+       <span class="shop-item-price">$14.00</span>
+       <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+     </div>
+    </div>
+    <div class="shop-item">
+       <span class="shop-item-title">Seppie con i piselli</span>
+       <img class="shop-item-image" src="img/secondo1.jpg">
+        <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. </p>
+     <div class="shop-item-details">
+       <span class="shop-item-price">$14.00</span>
+       <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+     </div>
+    </div>
+    <div class="shop-item">
+       <span class="shop-item-title">Seppie con i piselli</span>
+       <img class="shop-item-image" src="img/secondo1.jpg">
+        <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. </p>
+     <div class="shop-item-details">
+       <span class="shop-item-price">$14.00</span>
+       <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+     </div>
+    </div>
+   <div class="shop-item">
+       <span class="shop-item-title">Seppie con i piselli</span>
+       <img class="shop-item-image" src="img/secondo1.jpg">
+        <p class="htext"> classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. </p>
+     <div class="shop-item-details">
+       <span class="shop-item-price">$14.00</span>
+       <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+     </div>
+    </div>
+    <div class="shop-item">
+       <span class="shop-item-title">Seppie con i piselli</span>
+       <img class="shop-item-image" src="img/secondo1.jpg">
+        <p class="htext">classico in perfetto stile total black: le linguine al nero di seppie, una pietanza dall’aspetto accattivante e dal gusto sublime, perfetta per chi ama i sapori di mare. </p>
+     <div class="shop-item-details">
+       <span class="shop-item-price">$14.00</span>
+       <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+     </div>
+    </div>
+   </div>
+   </section>
+   <section class="container content-section cart-style">
+   <h2 class="section-header">Cart</h2>
+   <div class="cart-row">
+     <span class="cart-item cart-header cart-column">Item</span>
+     <span class="cart-price cart-header cart-column">Price</span>
+     <span class="cart-quantity cart-header cart-column">Quantity</span>
+   </div>
+  <div class="cart-items">
+  </div>
+   <div class="cart-total">
+    <strong class="cart-total-title">Total</strong>
+    <span class="cart-total-price">$0.00</span>
+   </div>
+       <button class="btn btn-primary btn-purchase" role="button">Purchase</button>
+ </section>
+<div id="contact">
+  <div class="tasty-contact">
+    <a href="#home"><h1 class="h1style">Contact us</h1></a>
+  </div>
+  <div class="contact-container">
+    <div class="iframe">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.209564356451!2d12.476543714420245!3d41.88834997275339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6035e52925bb%3A0x942c14fbb58c5014!2sLungotevere%20Ripa%2C%2054%2C%2000153%20Roma%20RM!5e0!3m2!1sen!2sit!4v1607468706993!5m2!1sen!2sit" width="" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">"
+     
+      frameborder="0"
+      style="border: 0"
+      allowfullscreen=""
+      aria-hidden="false"
+      tabindex="0"
+    ></iframe>
+    </div>
+ <div class="contact-form">
+    <form onsubmit="return false">
+      <h3 class="msgUs">Message us</h3>
+      <div class="input-box">
+        <input type="text" required />
+        <span>Full Name</span>
+      </div>
+      <div class="input-box">
+        <input type="text" required />
+        <span>Email</span>
+      </div>
+      <div class="input-box">
+        <textarea required></textarea>
+        <span>Type your message...</span>
+      </div>
+        <input type="submit" value="Send" class="submit" />
+    </form>
+  </div>
+ </div>
+</div>
+  <footer>
+   <div class="big-container">
+    <div class="pay">
+       <h3 class="message">Payment Method</h3>
+      <div class="method">
+      <div class="box">
+      <img src="img/master.webp">
+      </div>
+     <div class="box">
+     <img src="img/paypal.png">
+    </div>
+     <div class="box">
+      <img src="img/visa.png">
+     </div>
+     <div class="box">
+       <img src="img/american.png">
+      </div>
+    </div>
+    </div>
+    <div class="meet">
+       <h3 class="message-contact">Contact</h3>
+     <div class="contact">
+     <div class="box2">
+     <img src="img/twitter.png">
+    </div>
+    <div class="box2">
+     <img src="img/youtube.png">
+   </div>
+     <div class="box2">
+      <img src="img/facebook.png">
+    </div>
+    <div class="box2">
+       <img src="img/instagram.jpg">
+      </div>
+      </div>
+    </div>
+   
+   </div>
+  
+
+ </footer>
+   
+     <script>
+      var sideNav = document.querySelector('.sideNav');
+      var closeNav =document.querySelector('#closeNav');
+      var ham = document.querySelector('#hamburger-container')
+ham.onclick = function() {
+  
+    sideNav.style.width = '157px'
+    closeNav.style = 'display: block'
+    ham.style='display: none'
+  }
+  document.querySelector('#closeNav img').onclick = function() {
+  
+    sideNav.style.width = '0px'
+    ham.style='display: block'
+     closeNav.style = 'display: none'
+  }
+ </script>
+</body>
+</html>

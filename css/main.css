@@ -1,0 +1,686 @@
+* {
+	margin:0;
+}
+.body {
+	margin:0;
+	background-image: url('../img/photo3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	 background-attachment: fixed;
+   box-sizing: border-box;
+}
+#mainNav {
+  background-color: black;
+  color: white;
+  padding:10px;
+  width: 100%;
+  position: fixed;
+  top:0;
+  text-align: center;
+  z-index: 1;
+  padding-top:1%;
+}
+#mainNav ul {
+	text-align: center;
+	padding-bottom: 2%;
+}
+#mainNav ul li{
+	display:inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 1.8em;
+
+}
+header h1{
+	text-align: center;
+	padding-top: 3em;
+	font-size: 2.5em;
+
+}
+
+
+.lab{
+  color:white;
+  padding-top: 10%;
+}
+
+.li{
+	padding-top: 1.5%;
+}
+.img2 {
+	width:50px;
+	height:40px;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+
+.img{
+	float:left;
+	width:6em;
+	margin-left: 2%;
+}
+
+
+span {
+	width: 400px;
+	margin-left: 2em;
+	padding-right: 2em;
+}
+.submit{
+   padding: 8px;
+   width: 150px;
+   margin-top: 10%;
+   margin-left: 10%;
+   margin-bottom: 10%;
+ }
+ /*styling fancy box*/
+ #lightbox{
+  display: flex;
+  margin-top:1%;
+  flex-wrap: wrap;
+ justify-content: center;
+}
+
+.galary{
+  text-align: left;
+  margin-top: 3%;
+  color:white;
+  font-weight: bolder;
+  text-shadow: 5px 5px 5px grey;
+  font-size: 35px;
+  margin-left: 2%;
+}
+
+#lightbox img{
+  display: block;
+  border: 5px ridge white;
+  margin: 24px;
+  width:390px;
+  height: 220px;
+}
+/* opening login form*/
+.open-button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+/* The popup form - hidden by default */
+.form-popup, .form-popup2, .form-popup3 {
+  display: none;
+  position: fixed;
+  top: 20%;
+  right: 40%;
+  border: 3px solid black;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container, .form-container2, .form-container3 {
+  max-width: 330px;
+  padding: 5px;
+  background-color: black;
+  opacity:.95;
+  color:white;
+  font-size:25px;
+
+}
+ .form-container h3, .form-container2 h3, .form-container3 h3{
+  text-align: center;
+  font-size: 40px;
+} 
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password],
+.form-container2 input[type=text], .form-container2 input[type=password],
+.form-container3 input[type=text], .form-container3 input[type=password] {
+  width: 85%;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  background: #f1f1f1;
+  font-size: 20px;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus, 
+.form-container2 input[type=text]:focus, .form-container2 input[type=password]:focus,
+ .form-container3 input[type=text]:focus, .form-container3 input[type=password]:focus,{
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn, .form-container2 .btn, .form-container3 .btn  {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  margin-bottom:10px;
+  opacity: 0.7;
+  margin-left: 4%;
+  font-size: 25px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel, .form-container2 .cancel, .form-container3 .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover,.form-container2 .btn:hover, 
+.form-container3 .btn:hover{
+  opacity: 1;
+}
+.open-button2:hover, .open-button3:hover{
+    background-color: grey;
+}
+.open-button2, .open-button3{
+  width:90%;
+  margin: 5px 0 5px 10px;
+  color:white;
+  background-color: black;
+  font-size: 20px;
+  height: 50px;
+  cursor: pointer;
+
+}
+
+.span {
+  display: block;
+  width: 80%;
+  margin: 5% 0;
+
+}
+a:hover{
+  color:red;
+}
+#checkbox{
+  margin: 20px 0;
+
+}
+
+/* appstr and google store png*/
+.app{
+  width:250px;
+  height:40px;
+  margin-top: 2%;
+  float:right;
+  margin-right: 40%;
+}
+.app1, .app2{
+  width:48%;
+  height:96%;
+  display: inline-block;
+}
+
+.app-img{
+  width:98%;
+  height:97%;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+/* forms end*/
+footer{
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  opacity:.8;
+ }
+ /*payment method*/
+.big-container{
+  width:90%;
+  margin-left: 4%;
+  padding-top: 10px;
+}
+
+.pay{
+  margin-left: 5%;
+  width:40%;
+  float: left;
+}
+
+.method {
+   margin-left: 18%;
+   width:90%;
+   float:left;
+}
+.box{
+  display: inline-block;
+  float:left;
+  height:60px;
+  width:18%;
+  border: 1px solid blue;
+  background-color: skyblue;
+  opacity:.8;
+  margin-bottom: 5%;
+}
+.method .box img{
+   width:100%;
+   height:100%;
+}
+/*contact information*/
+.meet{
+  margin-left: 10%;
+  width:40%;
+  float: left;
+}
+
+.message{
+  margin-left: 30%;
+  margin-top:5px;
+  margin-bottom: 10px;
+  width: 70%;
+  font-size: 22px;
+ }
+
+.message-contact{
+  margin-left: 30%;
+  margin-top:5px;
+  margin-bottom: 10px;
+  width: 70%;
+ float:left;
+ font-size: 22px;
+}
+
+ .contact{
+   margin-left: 5%;
+   width:90%;
+   float: left;
+}
+
+.box2{
+  display: inline-block;
+  float:left;
+  height:50px;
+  width:18%;  
+  opacity:.8;
+  margin-bottom: 5%;
+}
+
+.meet .box2 img{
+   width:65%;
+   height:75%;
+   margin-left: 15px;
+}
+
+.last{
+  float:left;
+  width: 400px;
+  margin-left: 40%;
+  margin-bottom: 1%;
+}
+/*map and search box*/
+#home{
+    clear: both;
+    background-size: cover;
+    position: relative;
+}
+
+#boxConferma{
+  position: absolute;
+  width:50%;
+  left:25%;
+  top:20px;
+  height:60vh;
+  background: #FFF;
+  display: none;
+}
+
+#mappa{
+  width:100%;
+  height: 40vh;
+}section{
+    display: block;
+    text-align: center
+}
+
+#loading{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: rgba(255,255,255,0.85);
+  background-image: url(../img/loading.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: none;
+}
+
+#home section{
+  width: 100%;
+  max-width: 600px;
+  margin-left:28%;
+  margin-right: auto;
+  position: relative;
+  background: #FFF;
+  padding:5px;
+  height: 60px;
+  margin-top: 50px;
+  border-radius: 10px;
+  
+}
+
+#home #errore{
+  position: absolute;
+  top:-120%;
+  left:15%;
+  width:50%;
+  padding: 10px;
+  background: #C00;
+  color:#FFF;
+  border:solid 3px #C00;
+  border-radius:5px;
+  font-size: 1.1em;
+  display: none;
+  transition:top 0.8s;
+ 
+}
+
+
+#home #errore:after, #home #errore:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+/*#home #errore:after {
+  border-color: rgba(204, 0, 0, 0);
+  border-top-color: #C00;
+  border-width: 10px;
+  margin-left: -10px;
+}
+#home #errore:before {
+  border-color: rgba(204, 0, 0, 0);
+  border-top-color: #C00;
+  border-width: 16px;
+  margin-left: -16px;
+}*/
+
+
+
+#home #alertNumCivico{
+  position: absolute;
+  top:-120%;
+  right:28px;
+  width:50%;
+  padding: 10px;
+  background: #C00;
+  color:#FFF;
+  border:solid 3px #C00;
+  border-radius:5px;
+  font-size: 1.1em;
+  display: none;
+  transition:top 0.8s;
+  z-index: 10;
+}
+
+
+#home #alertNumCivico:after, #home #alertNumCivico:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+#home input#ricercaIndirizzo
+{
+    width: 72%;
+    border: none;
+    height: 55px;
+    padding-left: 1em;
+    transition: width 1s;
+    position: absolute;
+    font-size: 20px;
+    left:5px;
+    top:5px;
+}
+
+#home input#numCivico
+{  
+    width:0;
+    border: none;
+    height: 56px;
+    transition:1s;    
+    background: #FFF;
+    position: absolute;
+    right:22%;
+    font-size: 20px;
+}
+
+#home input#numCivico.attivo{
+  width: 16%;
+  padding-left: 1em;
+  background: #E5E5E5;
+}
+
+
+#home #cerca{
+    height: 56px;
+    width: 20%;
+    border: none;
+    background: #c60d5c;
+    border: 1px solid #c60d5c;
+    color: #fff; 
+    cursor: pointer;
+    position: absolute;
+    top:5px;
+    right: 2%;  
+    font-size: 20px;  
+}
+
+#boxConferma button{
+    height:40px;
+    width:20%;
+    border:none;
+    background:green;
+    border:1px solid green;
+    color:#fff; 
+    cursor:pointer;
+    position:absolute;
+    bottom:20px;
+    left:40%;
+}
+
+#boxConferma button:hover{
+  background: #00a500;
+}
+
+
+@media only screen and (max-device-width: 1024px) {
+  body{
+    height: 100vh;
+  }
+  input[type='checkbox'] {
+  
+    width:70px;
+    height:70px;
+    background:white;
+  
+}
+
+  #mainNav ul li{
+  display: inline-block;
+  font-size: 3.8em;
+}
+
+.img2 {
+  margin-top: 50px;
+  width:100px;
+  height:85px;
+}
+
+#lightbox img{
+  display: block;
+  border: 5px ridge white;
+  margin: 65px;
+  width:850px;
+  height: 490px;
+}
+#home section{
+  max-width: 830px;
+  margin-left:7%;   
+  margin-top: 10%; 
+  height: 200px;
+}
+
+.lab{
+    padding-top: 35%;
+   text-align: center;
+   font-size: 5em;
+}
+.galary{
+  margin-top: 15%; 
+  font-size: 70px;
+  margin-left: 28%;
+}
+
+#home #cerca{
+    height: 150px;
+     width: 20%;
+     position: absolute;
+    top:27px;
+    right: 2%; 
+    font-size: 40px;   
+}
+
+#home input#ricercaIndirizzo{
+  
+    width: 72%;
+    border: none;
+    height: 150px;
+    padding-left: 1em;
+    transition: width 1s;
+    position: absolute;
+    left:5px;
+    top:25px;
+    font-size: 45px;
+}
+
+
+#home input#numCivico{
+     width:0;
+    height: 70px;
+    position: absolute;
+    right:22%;
+    font-size: 50px;
+
+}
+#boxConferma{
+  position: absolute;
+  width:85%;
+  left:7%;
+  top:20px;
+  height:60vh;
+  
+}
+
+
+footer{
+  float: left;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.message{
+       font-size: 40px;
+  }
+.message-contact{
+     font-size: 52px;
+}
+
+.meet{
+  margin-left: 10%;
+  width:40%;
+}
+.contact{
+   margin-left: 20%;
+   width:90%;
+   margin-top: 30px;
+}
+.app{
+  width:600px;
+  height:100px;
+  margin-top: 2%;
+  float:right;
+  margin-right: 20%;
+  margin-bottom: 150px;
+}
+
+.app-img{
+  width:98%;
+  height:97%;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.form-popup, .form-popup2, .form-popup3 {
+    top: 8%;
+  }
+.form-container, .form-container2, .form-container3 {
+  max-width: 50em;
+  padding: 25px;
+  background-color: black;
+  opacity:.9;
+  color:white;
+  font-size:4em;
+  margin-left: 38%;
+  float:left;
+
+}
+.form-container h3, .form-container2 h3, .form-container3 h3{
+  text-align: center;
+  font-size: 1.5em;
+} 
+.form-container .btn, .form-container2 .btn, .form-container3 .btn {
+  font-size: 50px;
+  width: 650px;
+  height:100px;
+  margin-top: 10px;
+}
+.open-button3, .open-button2{
+   font-size: .9em; 
+   height:150px;
+   width:675px;
+   margin: 20px 0;
+
+}
+.form-container input[type=text], .form-container input[type=password],
+.form-container2 input[type=text], .form-container2 input[type=password],
+.form-container3 input[type=text], .form-container3 input[type=password] {
+  width: 600px;
+  padding: 40px;
+  font-size:50px;
+
+}
+
+
+
+@media only screen and (max-width: 2300px) and (min-width: 1300px) {
+ /*#lightbox {
+    display: flex;
+    margin-top: 1%;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}*/
+
+
+}
